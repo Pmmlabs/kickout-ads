@@ -10,6 +10,7 @@ var kickoutAds = (function () {
                 scripts = document.getElementsByTagName('script'),
                 badSource = [
                     { url: "p.tlrtb.com\/ad\/base.js", name: "Tele2 / Rostelecom" },
+                    { url: "p.2ad.wtf\/ad\/base.js", name: "Rostelecom" },
                     { url: "evil.com\/ad\/base.js", name: "Evil site" }];
 
             for (var ix in scripts) {
